@@ -3,4 +3,9 @@
     border: 1px solid grey;
     border-radius: 5px;
     font-size: 24px;
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
 }

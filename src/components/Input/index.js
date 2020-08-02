@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './styles.css'
+import './styles.scss'
 
 const Input = ({placeholder, ...rest}) => <input className="input-field" placeholder={placeholder} {...rest}/>
 
