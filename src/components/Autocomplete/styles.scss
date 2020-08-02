@@ -1,0 +1,20 @@
+.input-suggestions {
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+
+    &-item {
+        padding: 4px 0;
+    }
+
+    .search-link {
+        display: block;
+        margin-top: 10px;
+        padding: 4px 0;
+    }
+}
