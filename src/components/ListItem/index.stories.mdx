@@ -1,0 +1,24 @@
+<!--- index.stories.mdx -->
+
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import Item from '.';
+
+<Meta title="Components/Item" component={Item} />
+
+# Search Item
+
+With `MDX` we can define a story for `Item` right in the middle of our
+Markdown documentation.
+
+<!--- This is your Story template function, shown here in React -->
+
+export const Template = (args) => <Item {...args} />
+
+<Canvas>
+  <Story name="Default" args={{
+      label: 'Defautl story',
+      id: 'https://id.com/1'
+    }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
