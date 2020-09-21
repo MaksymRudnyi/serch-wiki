@@ -1,5 +1,6 @@
 import {useEffect, useState, useRef, useCallback} from "react";
-import axios from 'axios';
+
+import fetchApi, { axiosInstance } from './fetch';
 
 export const useSearch = (query, limit = 10) => {
 
@@ -21,9 +22,9 @@ export const useSearch = (query, limit = 10) => {
         }
 
 
-        cancelToken.current = axios.CancelToken.source();
+        cancelToken.current = axiosInstance.CancelToken.source();
 
-        axios.get(`https://en.wikipedia.org/w/api.php?origin=*&action=opensearch&search=${query}&limit=${limit}`, {
+        fetchApi(`https://en.wikipedia.org/w/api.php?origin=*&action=opensearch&search=${query}&limit=${limit}`, {
             cancelToken: cancelToken.current.token
         })
             .then(function (response) {
@@ -43,7 +44,7 @@ export const useSearch = (query, limit = 10) => {
                 })
             })
             .catch(function (error) {
-                if (axios.isCancel(error)) {
+                if (axiosInstance.isCancel(error)) {
                     return
                 }
 
