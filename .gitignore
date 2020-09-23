@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+.idea
+storybook-static
+
 
 # testing
 /coverage
