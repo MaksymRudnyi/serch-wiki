@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component with props should match snapshot 1`] = `
+<input
+  className="input-field"
+  name="search"
+  placeholder="Input your data"
+/>
+`;
+
+exports[`Input component without props should match snapshot 1`] = `
+<input
+  className="input-field"
+/>
+`;
