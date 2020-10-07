@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component when render home page should match snapshot home page 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App>
+      <Switch>
+        <Route
+          component={[Function]}
+          computedMatch={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          exact={true}
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            }
+          }
+          path="/"
+        >
+          <Home
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <div
+              className="home-page-container"
+            >
+              <img
+                alt="logo"
+                src="./logo.png"
+              />
+              <Container>
+                <Autocomplete
+                  articles={Array []}
+                  onSearchChange={[Function]}
+                  searchValue=""
+                >
+                  <Autocomplete
+                    autoHighlight={true}
+                    getItemValue={[Function]}
+                    inputProps={
+                      Object {
+                        "placeholder": "Input a search term: ",
+                      }
+                    }
+                    isItemSelectable={[Function]}
+                    items={Array []}
+                    menuStyle={
+                      Object {
+                        "background": "rgba(255, 255, 255, 0.9)",
+                        "borderRadius": "3px",
+                        "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+                        "fontSize": "90%",
+                        "maxHeight": "50%",
+                        "overflow": "auto",
+                        "padding": "2px 0",
+                        "position": "fixed",
+                      }
+                    }
+                    onChange={[Function]}
+                    onMenuVisibilityChange={[Function]}
+                    onSelect={[Function]}
+                    renderInput={[Function]}
+                    renderItem={[Function]}
+                    renderMenu={[Function]}
+                    selectOnBlur={false}
+                    slassName="autocomplete"
+                    value=""
+                    wrapperProps={Object {}}
+                    wrapperStyle={
+                      Object {
+                        "display": "inline-block",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                        }
+                      }
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-expanded={false}
+                        autoComplete="off"
+                        className="input-field"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        placeholder="Input a search term: "
+                        role="combobox"
+                        value=""
+                      />
+                    </div>
+                  </Autocomplete>
+                </Autocomplete>
+              </Container>
+            </div>
+          </Home>
+        </Route>
+      </Switch>
+    </App>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`App component when render search page should match snapshot search page 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/shjjearch",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/shjjearch",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/shjjearch",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App>
+      <Switch>
+        <Route
+          component={[Function]}
+          computedMatch={
+            Object {
+              "isExact": false,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "pathname": "/shjjearch",
+              "search": "",
+              "state": undefined,
+            }
+          }
+        >
+          <NotFound
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/shjjearch",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/shjjearch",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/shjjearch",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": false,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <div>
+              NotFound page
+            </div>
+          </NotFound>
+        </Route>
+      </Switch>
+    </App>
+  </Router>
+</MemoryRouter>
+`;
