@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete component when articles are NOT passed should match renderMenu snapshot 1`] = `<React.Fragment />`;
+
+exports[`Autocomplete component when articles are passed should match renderMenu snapshot 1`] = `
+<div
+  className="input-suggestions"
+  style={Object {}}
+>
+  <a
+    className="search-link"
+    href="/search?query=undefined"
+  >
+    See all results
+  </a>
+</div>
+`;
+
+exports[`Autocomplete component when renderItem props is called when item is NOT highlighted should match renderMenu snapshot 1`] = `
+<div
+  className="input-suggestions-item"
+  style={
+    Object {
+      "backgroundColor": "transparent",
+    }
+  }
+>
+  <a
+    href={1}
+    target="_blank"
+  >
+    test
+  </a>
+</div>
+`;
+
+exports[`Autocomplete component when renderItem props is called when item is highlighted should match renderMenu snapshot 1`] = `
+<div
+  className="input-suggestions-item"
+  style={
+    Object {
+      "backgroundColor": "#eee",
+    }
+  }
+>
+  <a
+    href={1}
+    target="_blank"
+  >
+    test
+  </a>
+</div>
+`;
+
+exports[`Autocomplete component without props should match snapshot 1`] = `
+<Autocomplete
+  autoHighlight={true}
+  getItemValue={[Function]}
+  inputProps={
+    Object {
+      "placeholder": "Input a search term: ",
+    }
+  }
+  isItemSelectable={[Function]}
+  menuStyle={
+    Object {
+      "background": "rgba(255, 255, 255, 0.9)",
+      "borderRadius": "3px",
+      "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.1)",
+      "fontSize": "90%",
+      "maxHeight": "50%",
+      "overflow": "auto",
+      "padding": "2px 0",
+      "position": "fixed",
+    }
+  }
+  onChange={[Function]}
+  onMenuVisibilityChange={[Function]}
+  onSelect={[Function]}
+  renderInput={[Function]}
+  renderItem={[Function]}
+  renderMenu={[Function]}
+  selectOnBlur={false}
+  slassName="autocomplete"
+  value=""
+  wrapperProps={Object {}}
+  wrapperStyle={
+    Object {
+      "display": "inline-block",
+    }
+  }
+/>
+`;
