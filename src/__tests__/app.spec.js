@@ -4,7 +4,7 @@ import { MemoryRouter } from "react-router-dom";
 
 import App from '../App';
 
-const render = (initialEntries) => mount(<MemoryRouter initialEntries={initialEntries}><App/></MemoryRouter>);
+const render = (initialEntries) => mount(<MemoryRouter keyLength={0} initialEntries={initialEntries}><App/></MemoryRouter>);
 
 describe('App component', () => {
     let sut;

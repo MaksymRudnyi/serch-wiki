@@ -7,6 +7,7 @@ exports[`App component when home page is rendered should match home page snapsho
       "/",
     ]
   }
+  keyLength={0}
 >
   <Router
     history={
@@ -18,7 +19,6 @@ exports[`App component when home page is rendered should match home page snapsho
         "entries": Array [
           Object {
             "hash": "",
-            "key": "oxgbar",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -32,7 +32,6 @@ exports[`App component when home page is rendered should match home page snapsho
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "oxgbar",
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -58,7 +57,6 @@ exports[`App component when home page is rendered should match home page snapsho
           location={
             Object {
               "hash": "",
-              "key": "oxgbar",
               "pathname": "/",
               "search": "",
               "state": undefined,
@@ -76,7 +74,6 @@ exports[`App component when home page is rendered should match home page snapsho
                 "entries": Array [
                   Object {
                     "hash": "",
-                    "key": "oxgbar",
                     "pathname": "/",
                     "search": "",
                     "state": undefined,
@@ -90,7 +87,6 @@ exports[`App component when home page is rendered should match home page snapsho
                 "listen": [Function],
                 "location": Object {
                   "hash": "",
-                  "key": "oxgbar",
                   "pathname": "/",
                   "search": "",
                   "state": undefined,
@@ -102,7 +98,6 @@ exports[`App component when home page is rendered should match home page snapsho
             location={
               Object {
                 "hash": "",
-                "key": "oxgbar",
                 "pathname": "/",
                 "search": "",
                 "state": undefined,
@@ -209,6 +204,7 @@ exports[`App component when not found page is rendered should match not found pa
       "/dfgsdff",
     ]
   }
+  keyLength={0}
 >
   <Router
     history={
@@ -220,7 +216,6 @@ exports[`App component when not found page is rendered should match not found pa
         "entries": Array [
           Object {
             "hash": "",
-            "key": "ys3yos",
             "pathname": "/dfgsdff",
             "search": "",
             "state": undefined,
@@ -234,7 +229,6 @@ exports[`App component when not found page is rendered should match not found pa
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "ys3yos",
           "pathname": "/dfgsdff",
           "search": "",
           "state": undefined,
@@ -259,7 +253,6 @@ exports[`App component when not found page is rendered should match not found pa
           location={
             Object {
               "hash": "",
-              "key": "ys3yos",
               "pathname": "/dfgsdff",
               "search": "",
               "state": undefined,
@@ -276,7 +269,6 @@ exports[`App component when not found page is rendered should match not found pa
                 "entries": Array [
                   Object {
                     "hash": "",
-                    "key": "ys3yos",
                     "pathname": "/dfgsdff",
                     "search": "",
                     "state": undefined,
@@ -290,7 +282,6 @@ exports[`App component when not found page is rendered should match not found pa
                 "listen": [Function],
                 "location": Object {
                   "hash": "",
-                  "key": "ys3yos",
                   "pathname": "/dfgsdff",
                   "search": "",
                   "state": undefined,
@@ -302,7 +293,6 @@ exports[`App component when not found page is rendered should match not found pa
             location={
               Object {
                 "hash": "",
-                "key": "ys3yos",
                 "pathname": "/dfgsdff",
                 "search": "",
                 "state": undefined,
